@@ -7,7 +7,9 @@
 		"@langchain/openai": "^0.4.2",
 		"@types/express": "^5.0.0",
 		"@types/node": "^22.13.1",
+		"dotenv": "^16.4.7",
 		"express": "^4.21.2",
+		"nillion-sv-wrappers": "^1.0.8",
 		"viem": "^2.22.21"
 	}
 }
