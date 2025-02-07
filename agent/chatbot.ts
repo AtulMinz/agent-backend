@@ -5,6 +5,8 @@ import {
   cdpApiActionProvider,
   erc20ActionProvider,
   erc721ActionProvider,
+  pythActionProvider,
+  EvmWalletProvider,
 } from "@coinbase/agentkit";
 
 import { getLangChainTools } from "@coinbase/agentkit-langchain";
