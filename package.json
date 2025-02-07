@@ -1,15 +1,35 @@
 {
-	"dependencies": {
-		"@coinbase/agentkit": "^0.1.1",
-		"@coinbase/agentkit-langchain": "^0.1.0",
-		"@langchain/core": "^0.3.37",
-		"@langchain/langgraph": "^0.2.44",
-		"@langchain/openai": "^0.4.2",
-		"@types/express": "^5.0.0",
-		"@types/node": "^22.13.1",
-		"dotenv": "^16.4.7",
-		"express": "^4.21.2",
-		"nillion-sv-wrappers": "^1.0.8",
-		"viem": "^2.22.21"
-	}
+  "dependencies": {
+    "@coinbase/agentkit": "^0.1.1",
+    "@coinbase/agentkit-langchain": "^0.1.0",
+    "@langchain/core": "^0.3.37",
+    "@langchain/langgraph": "^0.2.44",
+    "@langchain/openai": "^0.4.2",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nillion-sv-wrappers": "^1.0.8",
+    "viem": "^2.22.21"
+  },
+  "name": "agent-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun app/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtulMinz/agent-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtulMinz/agent-backend/issues"
+  },
+  "homepage": "https://github.com/AtulMinz/agent-backend#readme",
+  "description": ""
 }
